@@ -1,8 +1,8 @@
 #!/bin/bash
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/cuda:/usr/lib/nvidia
 
-if [[ -z "$WORKER" || -z "$EMAIL" || -z "EWAL" ]]; then
-    echo "You must at least set WORKER, EMAIL, and EWAL env vars."
+if [[ -z "$WORKER" || -z "$EMAIL" || -z "$EWAL" || -z "$DWAL" ]]; then
+    echo "You must at least set WORKER, EMAIL, EWAL, and DWAL env vars."
     exit 1
 fi
 
