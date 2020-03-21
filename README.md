@@ -25,5 +25,6 @@ docker run \
   -e "EMAIL=jerry3k@hotmail.com" \
   -e "WORKER=docker1" \
   -e "EWAL=0x50210a4a578d10346ead3a770e888ca749a4bccb" \
+  -e "DWAL=d2ce0ab59206119c0ba30b1592c8c43a6c3f949cd1eafc41cba7791d5f74d801a4e5bac8f463" \
   geoah/docker-claymore:v0.0.1
 ```
