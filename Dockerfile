@@ -10,7 +10,7 @@ ENV GPU_SINGLE_ALLOC_PERCENT=100
 # Ethereum pool address
 ENV EPOOL=eth-eu1.nanopool.org:9999
 # Ethereum wallet address
-ENV EWAL=
+ENV EWAL=0x50210a4a578d10346ead3a770e888ca749a4bccb
 # Ethereum pool password
 ENV EPSW=x
 # Ethereum mining intensity
